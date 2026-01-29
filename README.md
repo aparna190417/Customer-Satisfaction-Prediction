@@ -5,14 +5,21 @@ This project combines EDA, visualization, ML modeling, and a professional intera
 
 ---
 
-## 🚀 Project Highlights
+## 📌 Project Overview
+Customer satisfaction directly impacts customer retention and brand reputation.  
+This project predicts customer satisfaction levels using Machine Learning and visualizes insights through Power BI and a Python-based dashboard.
 
-- Industry-style data cleaning & preprocessing  
-- Insightful EDA visualizations  
-- Machine Learning model to predict satisfaction rating  
-- Interactive AI dashboard for live predictions  
-- Business-focused KPIs & analytics  
-- Power BI dashboard included for reporting  
+The project demonstrates a complete analytics lifecycle:
+**Data → ML Model → Predictions → Business Dashboards**
+
+---
+
+## 🎯 Objectives
+- Analyze customer support ticket data
+- Predict customer satisfaction ratings
+- Identify customers at risk of dissatisfaction
+- Monitor data quality and model performance
+- Present insights using Power BI and Python dashboards
 
 ---
 
@@ -53,15 +60,30 @@ Customer-Satisfaction-Prediction/
 
 ---
 
-## 🤖 Machine Learning Model
+## 🧠 Machine Learning Workflow
 
-The model predicts **Customer Satisfaction Rating (1–5)** using:
+### 1️⃣ Exploratory Data Analysis (EDA)
 
-- Ticket type & priority  
-- Channel (Chat, Email, Phone, Social Media)  
-- Response & resolution times  
-- Customer demographics  
-- Ticket subject & description (NLP features)  
+- Missing values analysis
+- Ticket distribution and trends
+- Satisfaction patterns by channel and priority
+- Text analysis for customer feedback
+
+### 2️⃣ Model Building
+
+- Feature preprocessing
+- Classification model training
+- Model evaluation using:
+- Accuracy
+- F1-score
+- Recall
+- ROC Curve
+
+### 3️⃣ Prediction Generation
+
+Final predictions saved in outputs/predictions.csv
+Best trained model saved as best_model.pkl
+
 
 ---
 
@@ -108,7 +130,18 @@ python check_model.py
 
 ## 📈 Power BI Dashboard
 
-A business intelligence dashboard is also included inside the `powerbi_dashboard` folder for executive reporting.
+The Power BI dashboard converts raw data and ML outputs into business-friendly insights.
+
+Dashboard Pages:
+- Overview
+- Tickets Analysis
+- ML Performance
+- Data Health
+- Prediction
+- Voice of Customer
+
+📌 Note:
+The .pbix file must be opened using Power BI Desktop.
 
 ---
 
@@ -123,6 +156,19 @@ A business intelligence dashboard is also included inside the `powerbi_dashboard
 - Power BI  
 
 ---
+
+## 🚀 Key Insights
+
+- Identified customers likely to be dissatisfied
+- Highlighted critical ticket channels and priorities
+- Improved visibility into data quality and ML performance
+- Enabled proactive customer support strategies
+
+## 💡 Business Impact
+
+- Supports data-driven customer experience decisions
+- Helps reduce customer churn
+- Bridges the gap between Machine Learning and business users
 
 ## 👩‍💻 Author
 
