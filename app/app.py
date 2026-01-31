@@ -222,7 +222,7 @@ st.markdown(
       Customer Satisfaction Prediction
     </h1>
     <p style='margin-top:0;font-size:0.9rem;color:#6B7280;'>
-      Monitor support performance and predict customer satisfaction using an AI-powered dashboard.
+      Monitor support performance and predict customer satisfaction dashboard.
     </p>
   </div>
   <div style='text-align:right;font-size:0.85rem;color:#6B7280;'>
